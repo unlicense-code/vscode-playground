@@ -1,14 +1,13 @@
 {
-  "name": "vscode-web-playground",
-  "description": "Web playground for VS Code",
+  "name": "vscode-playground",
+  "description": "Web playground for Code OSS / VSCODE",
   "version": "0.0.13",
-  "publisher": "vscode",
-  "license": "MIT",
+  "publisher": "unlicense-code",
+  "license": "Unlicense",
   "enabledApiProposals": [
     "fileSearchProvider",
     "textSearchProvider"
   ],
-  "private": true,
   "activationEvents": [
     "onFileSystem:memfs",
     "onDebug"
